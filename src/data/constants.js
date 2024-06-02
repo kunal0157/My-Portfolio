@@ -129,7 +129,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/C4E0BAQE_BsV_JiNDZw/company-logo_200_200/0/1632647499956/nrcrew_logo?e=2147483647&v=beta&t=lLQVE4TcFNbvT5gO4CVlEWCNLeFvLbsEvMYWAQWKgr0",
     role: "Web developer intern",
     company: "NR CREW",
-    date: "June 2024 - Present",
+    date: "June 2023 - Present",
     desc: "Working on Live Project,and learn reactjs and NextJs",
     skills: [
       "React",
