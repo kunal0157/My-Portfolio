@@ -177,7 +177,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "Admin Dashboard",
     date: "june 2023 - may 2024",
     description:
@@ -199,7 +199,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 2,
     title: "E-commerce Full Stack Website",
     date: "Jan 2024 - may 2024",
     description:
@@ -255,7 +255,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: "TrackHub",
     date: "may 2024 - aug 2024",
     description:
@@ -282,27 +282,7 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: "Password Genrater",
-  //   date: "June 2024 - may 2024",
-  //   description:
-  //     "password Genrater is web app platform, in this web can genrate all type of password mix number,mix alphabet.",
-  //   image:
-  //     "https://github.com/kunal0157/Password-Genrater/blob/main/src/assets/Screenshot%202024-05-17%20110245.png?raw=true",
-  //   tags: ["React Js", "Tailwind"],
-  //   category: "web app",
-  //   github: "https://github.com/kunal0157/Password-genrater",
-  //   webapp: "https://password-genrater-six.vercel.app/",
-  //   member: [
-  //     {
-  //       name: "Dangi Kunal",
-  //       img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
-  //       linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
-  //       github: "https://github.com/kunal0157",
-  //     },
-  //   ],
-  // },
+  
   {
     id: 4,
     title: "Yatharth Finance Cunsultonsy",
