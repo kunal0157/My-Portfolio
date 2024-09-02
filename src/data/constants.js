@@ -228,16 +228,23 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Currency Converter",
+    title: "E-building",
     date: "June 2024 - may 2024",
     description:
-      "Currency Converter is made in react js. in this project we can convert any currency to any country currency.",
-    image:
-      "https://github.com/kunal0157/currency-converter/blob/main/src/assets/Screenshot%202024-05-17%20110100.png?raw=true",
-    tags: ["React Js", "Tailwind Css"],
+      "Welcome to E-Building, your trusted partner in comprehensive building maintenance and gate security solutions. Our mission is to ensure that your properties remain in top-notch condition while providing unparalleled security to safeguard your premises. With a focus on excellence and customer satisfaction, we bring expertise, reliability, and innovative solutions to every project we undertake.",
+    image: "https://app-ebuilding-dev.vercel.app/assets/login3d-Ci2n18gA.webp",
+    tags: [
+      "React Js",
+      "TypeScript",
+      "antd",
+      "jotai",
+      "Tailwind css",
+      "nodejs",
+      "mongodb",
+    ],
     category: "web app",
-    github: "https://github.com/kunal0157/currency-converter",
-    webapp: "https://currency-converter-kappa-one.vercel.app/",
+    //github: "https://github.com/kunal0157/currency-converter",
+    webapp: "https://app-ebuilding-dev.vercel.app/",
     member: [
       {
         name: "Dangi Kunal",
@@ -249,16 +256,23 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Password Manager",
-    date: "June 2024 - may 2024",
+    title: "TrackHub",
+    date: "may 2024 - aug 2024",
     description:
-      "password manager is made in react and tailwind. it use for save all my password in any social media platform and other platform.",
-    image:
-      "https://github.com/kunal0157/Password-manager/blob/main/src/assets/Screenshot%202024-05-17%20110159.png?raw=true",
-    tags: ["React Js", "Tailwind"],
+      "TrackHub is web app. in this client can manage our daily basis store and add our regular user.and create bill and add product and user can subscribe his product.many features availavle for both store admin and customer.",
+    image: "https://trackhub-dev.vercel.app/assets/login-BA6XkYcS.png",
+    tags: [
+      "React Js",
+      "TypeScript",
+      "antd",
+      "jotai",
+      "Tailwind css",
+      "nodejs",
+      "mongodb",
+    ],
     category: "web app",
-    github: "https://github.com/kunal0157/Password-manager",
-    webapp: "https://password-manager-sepia.vercel.app/",
+    // github: "https://github.com/kunal0157/Password-manager",
+    webapp: "https://trackhub-dev.vercel.app/login",
     member: [
       {
         name: "Dangi Kunal",
@@ -268,27 +282,27 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 2,
-    title: "Password Genrater",
-    date: "June 2024 - may 2024",
-    description:
-      "password Genrater is web app platform, in this web can genrate all type of password mix number,mix alphabet.",
-    image:
-      "https://github.com/kunal0157/Password-Genrater/blob/main/src/assets/Screenshot%202024-05-17%20110245.png?raw=true",
-    tags: ["React Js", "Tailwind"],
-    category: "web app",
-    github: "https://github.com/kunal0157/Password-genrater",
-    webapp: "https://password-genrater-six.vercel.app/",
-    member: [
-      {
-        name: "Dangi Kunal",
-        img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
-        linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
-        github: "https://github.com/kunal0157",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   title: "Password Genrater",
+  //   date: "June 2024 - may 2024",
+  //   description:
+  //     "password Genrater is web app platform, in this web can genrate all type of password mix number,mix alphabet.",
+  //   image:
+  //     "https://github.com/kunal0157/Password-Genrater/blob/main/src/assets/Screenshot%202024-05-17%20110245.png?raw=true",
+  //   tags: ["React Js", "Tailwind"],
+  //   category: "web app",
+  //   github: "https://github.com/kunal0157/Password-genrater",
+  //   webapp: "https://password-genrater-six.vercel.app/",
+  //   member: [
+  //     {
+  //       name: "Dangi Kunal",
+  //       img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
+  //       linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
+  //       github: "https://github.com/kunal0157",
+  //     },
+  //   ],
+  // },
   {
     id: 4,
     title: "Yatharth Finance Cunsultonsy",
@@ -310,47 +324,47 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "React-Router-Web",
-    date: "June 2024 - may 2024",
-    description: "this is normal website for practice React-Router-web.",
-    image:
-      "https://github.com/kunal0157/react-router-web/blob/main/src/assets/Screenshot%202024-05-17%20110524.png?raw=true",
-    tags: ["Html", "Css", "javaScript", "NodeMailer"],
-    category: "web app",
-    github: "https://github.com/kunal0157/react-router-web",
-    webapp: "https://react-router-web-sepia.vercel.app/",
-    member: [
-      {
-        name: "Dangi Kunal",
-        img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
-        linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
-        github: "https://github.com/kunal0157",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Theme-Switcher",
-    date: "June 2024 - may 2024",
-    description:
-      "Theme Switcher is normal card componant in this project you can change theme light to dark.",
-    image:
-      "https://github.com/kunal0157/Theme-switcher/blob/main/src/assets/Screenshot%202024-05-17%20110406.png?raw=true",
-    tags: ["Html", "Css", "javaScript", "NodeMailer"],
-    category: "web app",
-    github: "https://github.com/kunal0157/Theme-switcher",
-    webapp: "https://theme-switcher-kappa-rust.vercel.app/",
-    member: [
-      {
-        name: "Dangi Kunal",
-        img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
-        linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
-        github: "https://github.com/kunal0157",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "React-Router-Web",
+  //   date: "June 2024 - may 2024",
+  //   description: "this is normal website for practice React-Router-web.",
+  //   image:
+  //     "https://github.com/kunal0157/react-router-web/blob/main/src/assets/Screenshot%202024-05-17%20110524.png?raw=true",
+  //   tags: ["Html", "Css", "javaScript", "NodeMailer"],
+  //   category: "web app",
+  //   github: "https://github.com/kunal0157/react-router-web",
+  //   webapp: "https://react-router-web-sepia.vercel.app/",
+  //   member: [
+  //     {
+  //       name: "Dangi Kunal",
+  //       img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
+  //       linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
+  //       github: "https://github.com/kunal0157",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Theme-Switcher",
+  //   date: "June 2024 - may 2024",
+  //   description:
+  //     "Theme Switcher is normal card componant in this project you can change theme light to dark.",
+  //   image:
+  //     "https://github.com/kunal0157/Theme-switcher/blob/main/src/assets/Screenshot%202024-05-17%20110406.png?raw=true",
+  //   tags: ["Html", "Css", "javaScript", "NodeMailer"],
+  //   category: "web app",
+  //   github: "https://github.com/kunal0157/Theme-switcher",
+  //   webapp: "https://theme-switcher-kappa-rust.vercel.app/",
+  //   member: [
+  //     {
+  //       name: "Dangi Kunal",
+  //       img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
+  //       linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
+  //       github: "https://github.com/kunal0157",
+  //     },
+  //   ],
+  // },
 ];
 
 export const TimeLineData = [
