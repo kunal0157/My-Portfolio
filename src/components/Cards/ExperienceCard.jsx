@@ -31,6 +31,7 @@ max-width: 100%;
 -webkit-line-clamp: 4;
 -webkit-box-orient: vertical;
 text-overflow: ellipsis;
+white-space: pre-line;
 `
 
 const Card = styled.div`

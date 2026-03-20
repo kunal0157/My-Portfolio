@@ -1,11 +1,11 @@
 export const Bio = {
   name: "DANGI KUNAL",
-  roles: ["Full Stack Developer", "Web Developer", "Programmer"],
+  roles: ["Full Stack Developer", "Web Developer", "MERN Stack Developer", "Backend Developer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/kunal0157",
   resume:
-    "https://drive.google.com/file/d/1kx3shASwml_JD-AIH0FAz0LWWiR-L3Ay/view?usp=drive_link",
+    "https://drive.google.com/file/d/1FP5oar0mRHCnCU-3d9xM5xlMSQmpjBkY/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
   twitter: "https://twitter.com/dangi_kuna50900",
   insta: "https://www.instagram.com/kunal_dangi12/",
@@ -24,7 +24,7 @@ export const skills = [
       {
         name: "Tailwind css",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJp_n-r49IxsRWP8zaL7VA-KyDo-zLjpRcQem7qO-sQ&s",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
         name: "Next Js",
@@ -33,17 +33,17 @@ export const skills = [
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         name: "Bootstrap",
@@ -53,7 +53,7 @@ export const skills = [
       {
         name: "C++",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
       },
     ],
   },
@@ -102,12 +102,12 @@ export const skills = [
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
       },
       {
         name: "Git",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/225px-Git-logo.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       },
       {
         name: "Postman",
@@ -126,21 +126,36 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4E0BAQE_BsV_JiNDZw/company-logo_200_200/0/1632647499956/nrcrew_logo?e=2147483647&v=beta&t=lLQVE4TcFNbvT5gO4CVlEWCNLeFvLbsEvMYWAQWKgr0",
-    role: "Web developer intern",
-    company: "NR CREW",
-    date: "June 2023 - Present",
-    desc: "Working on Live Project,and learn reactjs and NextJs",
+    img: "https://ui-avatars.com/api/?name=iTech+Sarathi&background=303030&color=fff&size=200",
+    role: "Full-Stack Developer",
+    company: "iTech Sarathi Private Limited",
+    date: "Sep 2024 – Present",
+    desc: "Spearheaded the development of a comprehensive custom ERP software handling complex modules like Stock Management, HRM, CRM, Sales, and Plant Operations.\n\n• Engineered complete Production Flow architectures including Production Orders, Work Orders, and WR Screens.\n• Built scalable and responsive frontend interfaces using React.js, Next.js, and Tailwind CSS.\n• Developed robust RESTful backend APIs and optimized routing transactions using Node.js and Express.js.\n• Architected a coaching platform featuring payment integration, hall ticket generation, and teacher/student result portals.\n• Directly collaborated with clients to troubleshoot bugs, implement iterative updates, and dramatically improve application performance.",
     skills: [
-      "React",
-      "JavaScript",
-      "tailwind",
-      "TypeScript",
-      "Node Js",
-      "Next Js",
-      "Mongo db",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "REST APIs"
     ],
-
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "https://ui-avatars.com/api/?name=NR+CREW&background=303030&color=fff&size=200",
+    role: "Full-Stack Developer",
+    company: "NR CREW",
+    date: "Jun 2023 – Sep 2024",
+    desc: "Engineered and successfully deployed robust web solutions including a comprehensive society management software and the TrackHub application, featuring secure payment integration and real-time transaction tracking.\n\n• Delivered scalable, high-performance web solutions across diverse client projects, ensuring code quality and rapid feature rollout.\n• Designed seamless frontend architectures and secure backend API communication.",
+    skills: [
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Next.js",
+      "MongoDB"
+    ],
     doc: "",
   },
 ];
@@ -232,7 +247,7 @@ export const projects = [
     date: "June 2024 - may 2024",
     description:
       "Welcome to E-Building, your trusted partner in comprehensive building maintenance and gate security solutions. Our mission is to ensure that your properties remain in top-notch condition while providing unparalleled security to safeguard your premises. With a focus on excellence and customer satisfaction, we bring expertise, reliability, and innovative solutions to every project we undertake.",
-    image: "https://app-ebuilding-dev.vercel.app/assets/login3d-Ci2n18gA.webp",
+    image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
     tags: [
       "React Js",
       "TypeScript",
@@ -260,7 +275,7 @@ export const projects = [
     date: "may 2024 - aug 2024",
     description:
       "TrackHub is web app. in this client can manage our daily basis store and add our regular user.and create bill and add product and user can subscribe his product.many features availavle for both store admin and customer.",
-    image: "https://trackhub-dev.vercel.app/assets/login-BA6XkYcS.png",
+    image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800",
     tags: [
       "React Js",
       "TypeScript",
@@ -282,7 +297,7 @@ export const projects = [
       },
     ],
   },
-  
+
   {
     id: 4,
     title: "Yatharth Finance Cunsultonsy",
@@ -295,6 +310,60 @@ export const projects = [
     category: "web app",
     github: "https://github.com/kunal0157/Yatharth-finance",
     webapp: "https://yatharth-finance.vercel.app/",
+    member: [
+      {
+        name: "Dangi Kunal",
+        img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
+        linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
+        github: "https://github.com/kunal0157",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Shree Mahalaxmi Engineering Company",
+    date: "2026",
+    description: "A professional business website developed for Shree Mahalaxmi Engineering Company. It showcases their manufacturing capabilities, industrial products, and overall operational excellence.",
+    image: "https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["React Js", "Tailwind CSS", "Next.js"],
+    category: "web app",
+    webapp: "https://shree-mahalaxmi-engineering.vercel.app/",
+    member: [
+      {
+        name: "Dangi Kunal",
+        img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
+        linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
+        github: "https://github.com/kunal0157",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Tapan Logistics",
+    date: "2026",
+    description: "A modern import and export business website designed for Tapan Logistics, providing streamlined information about their global supply chain, transportation, and freight services.",
+    image: "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["React Js", "Tailwind CSS", "Next.js"],
+    category: "web app",
+    webapp: "https://www.tapanlogistic.in/",
+    member: [
+      {
+        name: "Dangi Kunal",
+        img: "https://avatars.githubusercontent.com/u/105959379?s=400&u=831423053e1b1bea46709f93aaf747551e4c86d5&v=4",
+        linkedin: "https://www.linkedin.com/in/dangi-kunal-60a811227/",
+        github: "https://github.com/kunal0157",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Dhrivon Engineering",
+    date: "2026",
+    description: "A comprehensive engineering company platform developed for Dhrivon, highlighting their specialized engineering services, portfolios, and deep technical expertise.",
+    image: "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["React Js", "Tailwind CSS", "Next.js"],
+    category: "web app",
+    webapp: "https://www.dhrivon.com/",
     member: [
       {
         name: "Dangi Kunal",

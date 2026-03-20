@@ -98,8 +98,15 @@ export const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border-radius: 12px;
+  border: 3px solid ${({ theme }) => theme.primary};
+  box-shadow: 0 0 30px ${({ theme }) => theme.primary}40;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 50px ${({ theme }) => theme.primary}70;
+  }
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -189,9 +196,9 @@ export const ResumeButton = styled.a`
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+        transition: all 0.4s ease-in-out;
+        box-shadow:  20px 20px 60px #1F2634;
+        filter: brightness(1.1);
     }    
     
     

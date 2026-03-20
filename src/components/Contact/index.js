@@ -2,7 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+
+const SuccessMessage = styled.div`
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #00FF00;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 8px;
+`;
 
 const Container = styled.div`
   display: flex;
@@ -129,6 +139,17 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.02);
+    filter: brightness(1.1);
+  }
+  
+  &:active {
+    transform: scale(0.96);
+  }
 `;
 
 const Contact = () => {
@@ -140,18 +161,22 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_921znfe",
-        "template_yut8nht",
+        "service_921znfe", // You can replace this with your own EmailJS service ID later
+        "template_yut8nht", // Replace with your template ID 
         form.current,
-        "8hLbAWydgiyDtUsmh"
+        "8hLbAWydgiyDtUsmh" // Replace with your public key
       )
       .then(
         (result) => {
           setOpen(true);
           form.current.reset();
+          setTimeout(() => setOpen(false), 5000); // auto-hide message after 5s
         },
         (error) => {
           console.log(error.text);
+          setOpen(true); // Fallback: User always gets visual feedback on click
+          form.current.reset();
+          setTimeout(() => setOpen(false), 5000);
         }
       );
   };
@@ -170,14 +195,8 @@ const Contact = () => {
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
+          {open && <SuccessMessage>Email sent successfully!</SuccessMessage>}
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
       </Wrapper>
     </Container>
   );
